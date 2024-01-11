@@ -1,0 +1,67 @@
+\documentclass[10pt, oneside]{article} 
+\usepackage{amsmath, amsthm, amssymb, calrsfs, wasysym, verbatim, bbm, color, graphics, geometry}
+
+\geometry{tmargin=.75in, bmargin=.75in, lmargin=.75in, rmargin = .75in}  
+
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\Cdot}{\boldsymbol{\cdot}}
+
+\newtheorem{thm}{Theorem}
+\newtheorem{defn}{Definition}
+\newtheorem{conv}{Convention}
+\newtheorem{rem}{Remark}
+\newtheorem{lem}{Lemma}
+\newtheorem{cor}{Corollary}
+
+
+\title{Econometrics2}
+\author{Shotiko Abramishvili}
+\date{MAFINRISK}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\vspace{.25in}
+
+\section{Intro}
+\subsection{General}
+The course is mainly focused on using time series in order to make forecasts. Two main types of forecasts we are going to focus on is forecasting the conditional mean(return) and the second part focuses on forecasting the variance(risk/volatility)
+\subsection{Time-Series}
+\subsubsection{Linear Processes}
+\subsubsection{Stationarity}
+\begin{itemize}
+\item{Strict and Weak Stationarity}
+\item{Examples}
+\end{itemize}
+
+
+
+
+\section{Internal Transfer Rates}
+
+\begin{itemize}
+
+\item The {\bf Hamiltonian formulation}:
+\[ \dot{{\bf x}} = \frac{\partial H}{\partial {\bf p}}, \;\;\;\;\; \dot{{\bf p}} = - \frac{\partial H}{\partial {\bf x}}. \]
+
+\item The {\bf Lagrangian formulation}:
+\[ \delta S[{\bf x}(t)] = 0, \]
+where the {\em action} on the time interval $[t_a, t_b]$ is given by
+\[ S[{\bf x}(t)] := \int_{t_a}^{t_b} \bigg[ \frac{m}{2} \, \dot{{\bf x}}(t)^2 - V({\bf x}(t)) \bigg]  \; dt. \]
+
+\item Etc.
+
+\end{itemize}
+
+\begin{itemize}
+
+\item Newtonian mechanics (i.e., ${\bf F} = m{\bf a}$) is an excellent theory; it applies to the vast majority of human-scale (and even interplanetary-scale) physics. 
+\end{itemize}
+
+\end{document}
